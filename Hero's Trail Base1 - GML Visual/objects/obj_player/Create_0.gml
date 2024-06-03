@@ -13,6 +13,3 @@ coins = 0;
 
 max_energia = 10;
 energia = max_energia;
-
-nearbyNPC = noone;
-lookRange = 100;

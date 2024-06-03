@@ -3,7 +3,7 @@
 x += move_speed;
 
 // Walk to side sprite
-sprite_index = spr_player_walk_side;
+sprite_index = spr_derepersonaje1;
 image_index += 0;
 
 // Reset the horizontal scale

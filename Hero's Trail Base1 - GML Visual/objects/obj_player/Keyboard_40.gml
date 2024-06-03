@@ -3,5 +3,5 @@
 y += move_speed;
 
 // Walk down sprite
-sprite_index = spr_player_walk_down;
+sprite_index = spr_frentePersonaje1;
 image_index += 0;

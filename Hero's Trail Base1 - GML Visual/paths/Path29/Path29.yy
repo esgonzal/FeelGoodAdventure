@@ -1,0 +1,21 @@
+{
+  "$GMPath":"",
+  "%Name":"Path29",
+  "closed":false,
+  "kind":1,
+  "name":"Path29",
+  "parent":{
+    "name":"Level1",
+    "path":"folders/Paths/Level1.yy",
+  },
+  "points":[
+    {"speed":100.0,"x":1472.0,"y":1504.0,},
+    {"speed":100.0,"x":1344.0,"y":1504.0,},
+    {"speed":100.0,"x":1056.0,"y":1504.0,},
+    {"speed":100.0,"x":736.0,"y":1504.0,},
+    {"speed":100.0,"x":608.0,"y":1504.0,},
+  ],
+  "precision":4,
+  "resourceType":"GMPath",
+  "resourceVersion":"2.0",
+}

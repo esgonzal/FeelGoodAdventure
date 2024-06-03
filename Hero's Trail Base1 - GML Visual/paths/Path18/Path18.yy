@@ -1,0 +1,15 @@
+{
+  "$GMPath":"",
+  "%Name":"Path18",
+  "closed":false,
+  "kind":0,
+  "name":"Path18",
+  "parent":{
+    "name":"Level1",
+    "path":"folders/Paths/Level1.yy",
+  },
+  "points":[],
+  "precision":4,
+  "resourceType":"GMPath",
+  "resourceVersion":"2.0",
+}
