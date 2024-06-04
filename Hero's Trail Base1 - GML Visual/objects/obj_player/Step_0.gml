@@ -30,3 +30,48 @@ if (nearbyNPC) {
         instance_destroy(obj_E);
     }
 }
+
+if (estado_fisico >= 75) {
+    move_speed = 5;
+    max_energia = 14; // Increase max energy
+    max_hearts = 14; // Increase max health
+} else if (estado_fisico >= 50) {
+    // No change, keep stats normal
+} else if (estado_fisico >= 25) {
+    move_speed = 3;
+    max_energia = 8; // Decrease max energy
+    max_hearts = 8; // Decrease max health
+} else {
+    move_speed = 2;
+    max_energia = 5; // Decrease max energy further
+    max_hearts = 5; // Decrease max health further
+}
+if (hearts > max_hearts) {
+    hearts = max_hearts;
+}
+if (energia > max_energia) {
+    energia = max_energia;
+}
+if (energia <= 0) {
+	estado_fisico -= 10;
+	if (estado_fisico < 0) {
+        estado_fisico = 0;
+    }
+    energia = max_energia;
+}
+
+// Count steps taken by checking changes in position
+if (x != previous_x || y != previous_y) {
+    steps_taken += 1;
+    previous_x = x;
+    previous_y = y;
+}
+
+// Increase estado_fisico every 1000 steps (adjustable)
+if (steps_taken >= 1000) {
+    estado_fisico += 5; // Increase estado_fisico (adjustable)
+    if (estado_fisico > 100) {
+        estado_fisico = 100; // Ensure estado_fisico does not exceed 100
+    }
+    steps_taken = 0; // Reset step counter
+}

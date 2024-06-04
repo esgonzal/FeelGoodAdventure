@@ -1,17 +1,15 @@
 max_hearts = 10;
 hearts = max_hearts;
-
-// This variable is called
-// move_speed and stores
-// the movement speed of the
-// player. The speed is in
-// pixels-per-second.
-move_speed = 4;
-
-// Initialize coins value at 0
-coins = 0;
-
 max_energia = 10;
 energia = max_energia;
+move_speed = 4;
+
+estado_fisico = 60;
+steps_taken = 0; // Initialize step counter
+previous_x = x; // Store initial x position
+previous_y = y; // Store initial y position
+
 nearbyNPC = noone;
 lookRange = 100;
+
+coins = 0;

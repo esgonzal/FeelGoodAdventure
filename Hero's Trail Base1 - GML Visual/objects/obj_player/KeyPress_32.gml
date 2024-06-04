@@ -1,12 +1,16 @@
 /// @DnDAction : YoYo Games.Common.Execute_Code
 /// @DnDVersion : 1
 /// @DnDHash : 630C80D1
-/// @DnDArgument : "code" "var sword = instance_create_layer(x + 0, y + 0, "Instances", ObjAttack);$(13_10)$(13_10)sword.image_xscale = image_xscale;$(13_10)$(13_10)	energia += -1;$(13_10)$(13_10)$(13_10)"
+/// @DnDArgument : "code" "var sword = instance_create_layer(x + 0, y + 0, "Instances", ObjAttack);$(13_10)$(13_10)sword.image_xscale = image_xscale;$(13_10)$(13_10)	energia += -1;$(13_10)	if (energia <= 0) {$(13_10)    energia = max_energia;$(13_10)    estado_fisico -= 10; // Decrease estado_fisico by 10$(13_10)}$(13_10)$(13_10)$(13_10)"
 var sword = instance_create_layer(x + 0, y + 0, "Instances", ObjAttack);
 
 sword.image_xscale = image_xscale;
 
 	energia += -1;
+	if (energia <= 0) {
+    energia = max_energia;
+    estado_fisico -= 10; // Decrease estado_fisico by 10
+}
 
 /// @DnDAction : YoYo Games.Audio.Play_Audio
 /// @DnDVersion : 1.1

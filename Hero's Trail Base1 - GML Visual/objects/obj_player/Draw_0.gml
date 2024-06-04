@@ -3,4 +3,4 @@
 var width = sprite_width;
 var height = sprite_height;
 draw_self()
-draw_rectangle(x, y, x + width, y + height, true);
+//draw_rectangle(x, y, x + width, y + height, true);
