@@ -1,0 +1,32 @@
+[
+  {
+    "question": "¿Qué elementos deben incluirse en una dieta para asegurar una amplia variedad de nutrientes?",
+    "answers": [
+      "1. Solo frutas y verduras.",
+      "2. Frutas, verduras, granos enteros, proteínas magras y grasas saludables.",
+      "3. Solo alimentos procesados.",
+      "4. Solo proteínas magras."
+    ],
+    "correct_answer": "2"
+  },
+  {
+    "question": "¿Por qué es importante prestar atención al tamaño de las porciones durante las comidas?",
+    "answers": [
+      "1. Para comer la mayor cantidad posible.",
+      "2. Para evitar comer en exceso y escuchar las señales de saciedad del cuerpo.",
+      "3. Para comer solo alimentos procesados.",
+      "4. Para seguir una dieta estricta."
+    ],
+    "correct_answer": "2"
+  },
+  {
+    "question": "¿Por qué las frutas y verduras son importantes en la dieta?",
+    "answers": [
+      "1. Porque son altas en grasas saturadas.",
+      "2. Porque son bajas en calorías.",
+      "3. Porque son ricas en vitaminas, minerales, fibra y antioxidantes.",
+      "4. Porque son altas en azúcares añadidos."
+    ],
+    "correct_answer": "3"
+  }
+]

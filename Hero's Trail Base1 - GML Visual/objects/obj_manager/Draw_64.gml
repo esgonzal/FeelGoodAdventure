@@ -1,4 +1,5 @@
-var l4CC419CD_0 = false;
+if (!instance_exists(obj_pregunta)) {
+	var l4CC419CD_0 = false;
 l4CC419CD_0 = instance_exists(obj_player);
 if(l4CC419CD_0)
 {
@@ -28,3 +29,5 @@ if(l4CC419CD_0)
 	}
 }
 
+
+}

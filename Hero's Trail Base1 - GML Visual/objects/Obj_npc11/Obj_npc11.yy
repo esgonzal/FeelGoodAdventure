@@ -8,6 +8,7 @@
     {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":7,"eventType":7,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":76,"eventType":7,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"","%Name":"","collisionObjectId":{"name":"ObjAttack","path":"objects/ObjAttack/ObjAttack.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
   "name":"Obj_npc11",
@@ -31,7 +32,7 @@
   "physicsShapePoints":[],
   "physicsStartAwake":true,
   "properties":[
-    {"$GMObjectProperty":"","%Name":"path_to_follow","filters":[],"listItems":[],"multiselect":false,"name":"path_to_follow","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"path_default","varType":5,},
+    {"$GMObjectProperty":"v1","%Name":"path_to_follow","filters":[],"listItems":[],"multiselect":false,"name":"path_to_follow","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"path_default","path":"paths/path_default/path_default.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"path_default","varType":5,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
