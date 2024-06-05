@@ -1,3 +1,3 @@
-if energia < 10{
+if energia < max_energia{
 	energia += 1;
 }

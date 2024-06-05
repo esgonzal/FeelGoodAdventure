@@ -67,8 +67,8 @@ if (x != previous_x || y != previous_y) {
     previous_y = y;
 }
 
-// Increase estado_fisico every 1000 steps (adjustable)
-if (steps_taken >= 1000) {
+// Increase estado_fisico every 2000 steps (adjustable)
+if (steps_taken >= 2000) {
     estado_fisico += 5; // Increase estado_fisico (adjustable)
     if (estado_fisico > 100) {
         estado_fisico = 100; // Ensure estado_fisico does not exceed 100

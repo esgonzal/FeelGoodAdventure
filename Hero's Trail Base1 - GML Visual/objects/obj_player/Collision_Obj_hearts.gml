@@ -1,6 +1,6 @@
-if hearts < 10 {
+if hearts < max_hearts {
 	hearts += 1;
 	}
-if energia < 10{
+if energia < max_hearts{
 	energia += 1;
 }
